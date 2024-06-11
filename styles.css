@@ -16,7 +16,6 @@ hr.rounded {
     border-radius: 5px;
 
     width: 80%;
-    margin-bottom: 5%;
 }
 
 /* ============================================ */
@@ -36,10 +35,13 @@ hr.rounded {
     position: relative;
     display:flex;
     justify-content: center;
+    align-items: center; 
 
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:80%;
     
+
     /* Temp */
     /*border-style: solid;
     border-color: red;
@@ -47,7 +49,9 @@ hr.rounded {
 }
 
 .resized-image{
-    width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    
 }
 
 .prev, .next {
@@ -78,7 +82,7 @@ hr.rounded {
     top:50%;
     transform: translateY(-50%);
     justify-content: space-between;
-    width:75%;
+    width:77%;
 
     /* Temp */
     /*border-style: solid;
@@ -86,3 +90,11 @@ hr.rounded {
     /* Temp */
   }
 
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
