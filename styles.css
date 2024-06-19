@@ -12,7 +12,6 @@ body{
   margin-left: auto;
 
   width: 5%;
-
 }
 
 .header-container {
@@ -21,9 +20,6 @@ body{
 
   width: 80%;
   margin-left: 10%;
-  
-
-  border: 1px solid black;
 }
 
 
@@ -33,12 +29,9 @@ h1{
   display:flex;
 
   font-family: 'Calibri', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   width: 77%;
   white-space: nowrap;
-
-  border-style: solid;
-  border-color: solid black;
 }
 
 hr.rounded {
@@ -46,7 +39,6 @@ hr.rounded {
   border-radius: 5px;
 
   width: 80%;
-  margin: 20px auto;
 }
 
 /* ============================================ */
