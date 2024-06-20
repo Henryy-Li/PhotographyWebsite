@@ -4,9 +4,48 @@ body{
   padding: 0;
 }
 
+
+.header-container {
+  display:flex;
+  align-items: center;              /* Vertical alignment */
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: 10%;
+
+  width: 80%;
+  height:auto;
+
+  border:solid black;
+}
+
+
+.headerDiv{
+  display: inline-block;
+  display:flex;
+  align-items: center;
+
+  font-family: 'Georgia', sans-serif;
+  font-size: 30px;
+  white-space: nowrap;
+
+  border:solid orange;
+}
+
+.socialDiv{
+  display: inline-block;
+  display:flex;
+  align-items: center;
+
+  white-space: nowrap;
+  width:100%;
+  height:30%;
+
+  border:solid blue;
+}
+
 .logo{
   width: 100%;
-  justify-self:space-evenly;
+  height:auto;
 
   display:flex;
   justify-content: flex-end;
@@ -15,42 +54,13 @@ body{
 
 .logo-link{
   margin-left: 10px;
-
-  width: 3%;
-
-  border:solid black;
-}
-
-.header-container {
-  display:flex;
-  align-items: center;
-  justify-content: flex-end;
-
-  width: 80%;
-  margin-top: 20px; /* Adjust the top margin for desired spacing */
-  margin-bottom: 20px; /* Optional: Add margin at the bottom if needed */
-
-
-  margin-left: 10%;
-  border:solid blue;
+  width: 5%;
+  border:solid lightskyblue;
 }
 
 
 
-h1{
-  display: inline-block;
-  display:flex;
 
-  font-family: 'Georgia', sans-serif;
-  font-size: 50px;
-  width: 77%;
-  white-space: nowrap;
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border:solid orange;
-}
 
 .rounded1 {
   border-top: 8px solid #bbb;
