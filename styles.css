@@ -1,6 +1,7 @@
 body{
   width: 80%; 
-  margin:100px auto; 
+  margin:50px auto; 
+  padding: 0;
 }
 
 .logo{
@@ -19,7 +20,12 @@ body{
   align-items: center;
 
   width: 80%;
+  margin-top: 20px; /* Adjust the top margin for desired spacing */
+  margin-bottom: 20px; /* Optional: Add margin at the bottom if needed */
+
+
   margin-left: 10%;
+  
 }
 
 
@@ -32,18 +38,23 @@ h1{
   font-size: 50px;
   width: 77%;
   white-space: nowrap;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
-
   width: 80%;
+  
 }
 
 /* ============================================ */
 
 .slideshow{
+  
   position: relative;
   display: flex;
   justify-content: center;
