@@ -6,19 +6,25 @@ body{
 
 .logo{
   width: 100%;
-  
+  justify-self:space-evenly;
+
+  display:flex;
+  justify-content: flex-end;
+  border:solid black;
 }
 
 .logo-link{
-  display: flex;
-  margin-left: auto;
+  margin-left: 10px;
 
-  width: 5%;
+  width: 3%;
+
+  border:solid black;
 }
 
 .header-container {
   display:flex;
   align-items: center;
+  justify-content: flex-end;
 
   width: 80%;
   margin-top: 20px; /* Adjust the top margin for desired spacing */
@@ -26,7 +32,7 @@ body{
 
 
   margin-left: 10%;
-  
+  border:solid blue;
 }
 
 
@@ -43,6 +49,7 @@ h1{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border:solid orange;
 }
 
 .rounded1 {
